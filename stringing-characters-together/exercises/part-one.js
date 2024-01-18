@@ -1,4 +1,4 @@
-let num = 1001;
+let num = 1001.56;
 
 //Returns 'undefined'.
 console.log(num.length);
