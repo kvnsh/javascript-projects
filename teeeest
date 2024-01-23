@@ -1,16 +1,5 @@
-let numbers = [25,32];
-let searchVal = 25;
-let i = 0;
-
-while (i < numbers.length) {
-   if (numbers[i] === searchVal) {
-      break;
+for (i=0;i<+5;i++){
+   for(j=0;j<=5;j++){
+      console.log(i,j)
    }
-   i++;
-}
-
-if (i < numbers.length) {
-   console.log("The value", searchVal, "was located at index", i);
-} else {
-   console.log("The value", searchVal, "is not in the array.");
 }
