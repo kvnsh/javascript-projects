@@ -44,16 +44,16 @@ let waterBear = {
 };
 
 // Create an array to hold the animal objects.
-let animalArray = [superChimpOne, salamander, duperChimpone, beagliBeagle, waterBear];
+let crew = [superChimpOne, salamander, duperChimpone, beagliBeagle, waterBear];
 
 // Assign astronautID to each animal object.
-for (let i = 0; i < animalArray.length; i++) {
-   animalArray[i].astronautID = i + 1; // Assigning unique astronautID starting from 1
+for (let i = 0; i < crew.length; i++) {
+   crew[i].astronautID = i + 1; // Assigning unique astronautID starting from 1
 }
 
 // Print out the relevant information about each animal.
-for (let i = 0; i < animalArray.length; i++) {
-   console.log(`Name: ${animalArray[i].name}, Species: ${animalArray[i].species}, Astronaut ID: ${animalArray[i].astronautID}`);
+for (let i = 0; i < crew.length; i++) {
+   console.log(`Name: ${crew[i].name}, Species: ${crew[i].species}, Astronaut ID: ${crew[i].astronautID}`);
 }
 
 // Start an animal race!
